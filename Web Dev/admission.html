@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+        integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index3.html"><img src="ARV.png" alt="logo"></a>
+
+            <div class="navbars">
+                <ul>
+                    <li><a href="index3.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="admission.html">ADMISSION</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>Registration Form</h1>
+
+    </section>
+    <section class="container3">
+        
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label>Full Name</label></label>
+                    <input type="text" placeholder="Enter Full Name" required>
+
+
+                </div>
+
+                <div class="input-box">
+                    <label>Mother's Name</label>
+                    <input type="text" placeholder="Enter Mother's Name" required>        
+                </div>
+
+                <div class="input-box">
+                    <label>Father's Name</label>
+                    <input type="text" placeholder="Enter Father's Name" required>        
+                </div>
+
+
+
+                <div class="input-box">
+                    <label>Email Address</label>
+                    <input type="text" placeholder="Enter Email Address" required>
+                </div>
+                <div class="column">
+                    <div class="input-box">
+                        <label>Mobile Number</label>
+                        <input type="number" placeholder="Enter Mobile Number" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label>Date of Birth</label>
+                        <input type="date" placeholder="Enter Birth Date" required>
+                    </div>
+                </div>
+
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+
+                            <input type="radio" id="check-male" name="gender" checked>
+                            <label for="check-male">Male</label>
+                        </div>
+
+                        <div class="gender">
+
+                            <input type="radio" id="check-female" name="gender" checked>
+                            <label for="check-female">Female</label>
+                        </div>
+
+                        <div class="gender">
+
+                            <input type="radio" id="check-other" name="gender" checked>
+                            <label for="check-other">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <tr>
+                        <td>
+                            Choose Course
+                        </td>
+                    </tr>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option value="">-Select-</option>
+                                <option value="">Bachelor of Arts (BA)</option>
+                                <option value="">Bachelor of Science (BS)</option>
+                                <option value="">Bachelor of Business Administration (BBA)</option>
+                                <option value="">Bachelor of Science in Nursing (BSN)</option>
+                                <option value="">Bachelor of Computer Science (BCS)</option>
+                                <option value="">Bachelor of Fine Arts (BFA)</option>
+                                <option value="">Bachelor of Education (BEd)</option>
+                                <option value="">Data Science</option>
+                                <option value="">Cyber Security</option>
+                                <option value="">Project Management</option>
+                                <option value="">Digital Marketing</option>
+                                <option value="">Machine Learning</option>
+                                <option value="">Web Development</option>
+                                <option value="">Business Analytics</option>
+                                <option value="">Master of Arts (MA)</option>
+                                <option value="">Master of Fine Arts (MFA)</option>
+                                <option value="">Master of Education (MEd)</option>
+                                <option value="">Master of Engineering (MEng)</option>
+                                <option value="">Master of Computer Science (MCS or MSc in CS)</option>
+                                <option value="">Master of Business Administration (MBA)</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="input-box address">
+                    <label>Address</label>
+                    <input type="text" placeholder="Enter Address" required>
+                    <input type="text" placeholder="Enter Address line 2" required>
+
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden>Country</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>Switzerland</option>
+                                <option>Denmark</option>
+                                <option>Nepal</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Enter Your City" required>
+                    </div>
+
+
+                    <div class="column">
+                        <input type="text" placeholder="Enter Your Region" required>
+                        <input type="number" placeholder="Enter Postal Code" required>
+                    </div>
+                </div>
+
+                <button>Submit</button>
+               
+            </form>   
+            
+        
+        
+    </section>
+    </body1>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Discover who we are and what we stand for on our About Us page.
+            Explore our mission, vision, and the values that drive our success.<br>
+            Learn how we strive to make a difference in education and beyond.</p>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
